@@ -2,14 +2,14 @@ POST http://localhost:3333/cadastro
 Content-Type: application/json
 
 {
-    "login": "carlos",
-    "password": "289412nf23123"
+    "login": "pirto",
+    "password": "289412nf231sfa23"
 }
 
 
 ###
 
-GET https://backend-guildmaster.onrender.com/usuarios?search=joao
+GET https://backend-guildmaster.onrender.com/usuarios
 
 
 ###
