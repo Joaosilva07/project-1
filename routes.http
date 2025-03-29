@@ -1,0 +1,27 @@
+POST http://localhost:3333/cadastro
+Content-Type: application/json
+
+{
+    "login": "node",
+    "password": "289412nf23123"
+}
+
+
+
+###
+
+GET  http://localhost:3333/usuarios?search=node
+
+###
+
+PUT http://localhost:3333/usuarios/5417da36-ad42-41ee-83c4-f2488cb49f94
+Content-Type: application/json
+
+{
+    "login": "carlo",
+    "password": "289412nf23123"
+}
+
+###
+
+DELETE http://localhost:3333/usuarios/5417da36-ad42-41ee-83c4-f2488cb49f94
