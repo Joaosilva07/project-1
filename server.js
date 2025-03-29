@@ -61,6 +61,7 @@ server.delete('/usuarios/:id', async (request,reply) => {
 })
 
 server.listen({
+    // erro fixed
     host: '0.0.0.0',
     port: process.env.PORT || 3333
 });
